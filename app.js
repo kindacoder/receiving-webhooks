@@ -12,11 +12,10 @@ const smee = new SmeeClient({
 
 const events = smee.start()
 
-// Stop forwarding events
+
 events.close()
 
 app.post('/webhooks',(req,res)=>{
-
 
 })
 
